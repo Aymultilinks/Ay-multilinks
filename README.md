@@ -6,6 +6,9 @@ GameZone is an exciting gaming website project designed to connect gamers worldw
 ## Features
 - **Modern Gaming UI**: Sleek, dark-themed interface with vibrant accents perfect for gaming enthusiasts.
 - **Popular Games Showcase**: Featured section highlighting the most popular and trending games.
+- **GameZone Store**: Virtual currency system with GameCoins for purchasing premium content and power-ups.
+- **Premium Membership**: Three-tier subscription model (Free, Premium, Pro) with exclusive benefits and features.
+- **Monetization Features**: Multiple revenue streams including subscriptions, virtual currency, and in-game purchases.
 - **Genre Categories**: Browse games by categories including Action, Strategy, RPG, Sports, Adventure, Puzzle, Racing, and Multiplayer.
 - **Gaming Community**: Connect with millions of active players and join a thriving gaming community.
 - **Support System**: Easy-to-use contact form for player support and inquiries.
