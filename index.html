@@ -3,53 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional Service Business Landing Page">
-    <title>Welcome to Our Service</title>
+    <meta name="description" content="Epic Gaming Portal - Your Gateway to Amazing Games">
+    <title>GameZone - Your Ultimate Gaming Destination</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Professional Services</h1>
+        <h1>🎮 GameZone</h1>
         <nav>
             <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#premium">Premium</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Support</a></li>
             </ul>
         </nav>
     </header>
     <section id="hero">
-        <h2>Your Success is Our Priority</h2>
-        <p>We offer a range of professional services to help your business thrive.</p>
-        <a href="#contact" class="cta-button">Get Started</a>
+        <h2>Welcome to GameZone</h2>
+        <p>Discover thousands of amazing games and join millions of players worldwide!</p>
+        <a href="#games" class="cta-button">Explore Games</a>
     </section>
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Consulting</li>
-            <li>Strategy Development</li>
-            <li>Project Management</li>
-            <li>Support Services</li>
-        </ul>
+    <section id="games">
+        <h2>🔥 Popular Games</h2>
+        <div class="game-grid">
+            <div class="game-card">
+                <h3>🏆 Battle Royale Arena</h3>
+                <p>Compete with 100 players in an epic survival battle</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+            <div class="game-card">
+                <h3>⚔️ Fantasy Quest</h3>
+                <p>Embark on an epic adventure through mystical lands</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+            <div class="game-card">
+                <h3>🏎️ Racing Legends</h3>
+                <p>Experience the thrill of high-speed racing action</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+            <div class="game-card">
+                <h3>🧩 Puzzle Master</h3>
+                <p>Challenge your mind with brain-teasing puzzles</p>
+                <button class="play-btn">Play Now</button>
+            </div>
+        </div>
     </section>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a dedicated team of professionals committed to delivering high-quality services to our clients.</p>
+    <section id="store">
+        <h2>🪙 GameZone Store</h2>
+        <p>Purchase GameCoins to unlock premium content, exclusive items, and power-ups!</p>
+        <div class="coin-packages">
+            <div class="coin-package">
+                <div class="coin-icon">💰</div>
+                <h3>Starter Pack</h3>
+                <div class="coin-amount">1,000 Coins</div>
+                <div class="coin-price">$4.99</div>
+                <button class="buy-btn" aria-label="Buy Starter Pack - 1,000 coins for $4.99">Buy Now</button>
+            </div>
+            <div class="coin-package popular">
+                <div class="popular-tag">Best Value</div>
+                <div class="coin-icon">💎</div>
+                <h3>Mega Pack</h3>
+                <div class="coin-amount">5,000 Coins</div>
+                <div class="coin-bonus">+500 Bonus</div>
+                <div class="coin-price">$19.99</div>
+                <button class="buy-btn" aria-label="Buy Mega Pack - 5,000 coins plus 500 bonus for $19.99">Buy Now</button>
+            </div>
+            <div class="coin-package">
+                <div class="coin-icon">👑</div>
+                <h3>Ultimate Pack</h3>
+                <div class="coin-amount">10,000 Coins</div>
+                <div class="coin-bonus">+2,000 Bonus</div>
+                <div class="coin-price">$34.99</div>
+                <button class="buy-btn" aria-label="Buy Ultimate Pack - 10,000 coins plus 2,000 bonus for $34.99">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="genres">
+        <h2>Game Genres</h2>
+        <div class="genre-list">
+            <div class="genre-item">🎯 Action</div>
+            <div class="genre-item">🧠 Strategy</div>
+            <div class="genre-item">🎭 RPG</div>
+            <div class="genre-item">⚽ Sports</div>
+            <div class="genre-item">🎪 Adventure</div>
+            <div class="genre-item">🧩 Puzzle</div>
+            <div class="genre-item">🏎️ Racing</div>
+            <div class="genre-item">👥 Multiplayer</div>
+        </div>
+    </section>
+    <section id="premium">
+        <h2>💎 Premium Membership</h2>
+        <p>Unlock exclusive features and earn rewards with GameZone Premium!</p>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Free</h3>
+                <div class="price">$0<span>/month</span></div>
+                <ul class="features">
+                    <li>✓ Access to basic games</li>
+                    <li>✓ Standard support</li>
+                    <li>✓ Community access</li>
+                    <li>✗ No ad-free experience</li>
+                    <li>✗ No exclusive games</li>
+                </ul>
+                <button class="pricing-btn" disabled aria-disabled="true">Current Plan</button>
+            </div>
+            <div class="pricing-card featured">
+                <div class="featured-badge">Most Popular</div>
+                <h3>Premium</h3>
+                <div class="price">$9.99<span>/month</span></div>
+                <ul class="features">
+                    <li>✓ Access to ALL games</li>
+                    <li>✓ Ad-free experience</li>
+                    <li>✓ Priority support</li>
+                    <li>✓ Exclusive tournaments</li>
+                    <li>✓ 20% off in-game items</li>
+                </ul>
+                <button class="pricing-btn premium">Upgrade Now</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Pro</h3>
+                <div class="price">$19.99<span>/month</span></div>
+                <ul class="features">
+                    <li>✓ Everything in Premium</li>
+                    <li>✓ Early access to new games</li>
+                    <li>✓ VIP community badge</li>
+                    <li>✓ Free monthly loot boxes</li>
+                    <li>✓ 50% off in-game items</li>
+                </ul>
+                <button class="pricing-btn">Go Pro</button>
+            </div>
+        </div>
+    </section>
+    <section id="community">
+        <h2>Join Our Gaming Community</h2>
+        <p>Connect with millions of gamers worldwide, share strategies, and make new friends!</p>
+        <div class="community-stats">
+            <div class="stat">
+                <h3>10M+</h3>
+                <p>Active Players</p>
+            </div>
+            <div class="stat">
+                <h3>500+</h3>
+                <p>Games Available</p>
+            </div>
+            <div class="stat">
+                <h3>24/7</h3>
+                <p>Support</p>
+            </div>
+        </div>
     </section>
     <section id="contact">
-        <h2>Contact Us</h2>
+        <h2>Contact Support</h2>
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
     <footer>
-        <p>&copy; 2026 Professional Services. All Rights Reserved.</p>
+        <p>&copy; 2026 GameZone. All Rights Reserved. | Powered by Gamers, For Gamers</p>
     </footer>
 </body>
 </html>
